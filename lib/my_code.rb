@@ -13,4 +13,5 @@ describe 'my own map-like methods' do
     end
   end
 
-def map_to_negativize(array)
+def map_to_negativize(source_array)
+  
