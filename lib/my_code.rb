@@ -46,6 +46,7 @@ end
   end
 
 def reduce_to_all_true(source_array)
+  source_array.reduce(starting_point, &block){ |x, y| if x || y = true; p true; else p false
   
 
   describe "reduce_to_any_true returns true when a truthy value is present" do
