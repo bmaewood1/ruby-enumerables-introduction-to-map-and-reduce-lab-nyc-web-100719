@@ -26,7 +26,7 @@ describe 'my own reduce-like methods' do
     end
   end
 
-
+def reduce_to_total(source_array)
 
 
 
