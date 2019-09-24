@@ -20,7 +20,7 @@ end
 
 
 def reduce_to_total(source_array)
-  source_array.reduce { |sum, n| sum + n }
+  source_array.reduce(0) { |sum, n| sum + n }
 end
 
   
