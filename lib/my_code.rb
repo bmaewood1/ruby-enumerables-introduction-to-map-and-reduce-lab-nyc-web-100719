@@ -14,4 +14,6 @@ describe 'my own map-like methods' do
   end
 
 def map_to_negativize(source_array)
-  
+  source_array.map { |n| -n }
+end
+
