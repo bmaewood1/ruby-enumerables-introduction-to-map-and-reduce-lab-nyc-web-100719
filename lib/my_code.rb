@@ -23,13 +23,7 @@ def reduce_to_total(source_array)
   source_array.reduce(0) { |sum, num| sum + num }
 end
 
-  describe "reduce_to_total returns a running total when given a starting point" do
-    it "reduces correctly" do
-      source_array = [1,2,3]
-      starting_point = 100
-      expect(reduce_to_total(source_array, starting_point)).to eq(106)
-    end
-  end
   
 def reduce_to_total(source_array, starting_point)
   source_array.reduce(starting_point) { |sum, num| sum + num }
+end
