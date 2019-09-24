@@ -28,8 +28,3 @@ def reduce_to_total(source_array, starting_point)
 end
 
 
-def reduce_to_all_true(source_array, starting_point = 0, &block)
-  source_array.reduce(starting_point, &block){ |x, y| if x || y = true; p true; else p false; end}
-end
-  
-
